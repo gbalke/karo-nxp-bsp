@@ -11,6 +11,8 @@
   <remote name="python2" fetch="https://git.openembedded.org"/>
   <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
   <remote name="karo" fetch="git://github.com/karo-electronics"/>
+  <remote name="YoeDistro" fetch="https://github.com/YoeDistro"/>
+  <remote name="ovc" fetch="git://github.com/gbalke"/>
   
   <default sync-j="2"/>
   
@@ -20,8 +22,10 @@
   <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="060967a7df43e8505568aa3d54fd8addcecab98d"/>
   <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="916df6d24c0a33a3b1533bde70b6a2724ec77af4"/>
   <project name="meta-imx" path="sources/meta-imx" remote="CAF" revision="refs/tags/rel_imx_5.10.52_2.1.0" upstream="hardknott-5.10.52-2.1.0"/>
+  <project name="meta-intel" path="sources/meta-intel" remote="YoeDistro" revision="refs/tags/15.0-hardknott-3.3"/>
   <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="71d85758f4189a065e69b10527e4014e998d0a80" upstream="imx_5.10.y" dest-branch="imx_5.10.y"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="5a4b2ab29d38c02535f24d5308cc40615739f557"/>
+  <project name="meta-ovc" path="sources/meta-ovc" remote="ovc" revision="master"/>
   <project name="meta-python2" path="sources/meta-python2" remote="python2" revision="8db9e4f6ceae33d7a4f55453d31e69f9858af4eb"/>
   <project name="meta-qt5" path="sources/meta-qt5" remote="QT5" revision="a00af3eae082b772469d9dd21b2371dd4d237684"/>
   <project name="meta-timesys" path="sources/meta-timesys" remote="Timesys" revision="00f81fbdf7fba2a09ff83d14fc3b040e9ae63b42"/>
